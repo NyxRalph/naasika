@@ -14,6 +14,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  background-attachment: fixed;
 }
 #section_0 {
   /* background-color: rgb(48, 11, 61); */
@@ -26,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-flex-direction: column;
+  flex-direction: column;
 }
 
 #section_2 {
