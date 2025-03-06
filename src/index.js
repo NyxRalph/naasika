@@ -23,4 +23,12 @@
 //     });
 //   });
 
-
+document.addEventListener("scroll", () => {
+  const sections = document.querySelectorAll(".parallax");
+console.log(sections)
+  sections.forEach((section) => {
+    const scrollSpeed = 0.15;
+    const offset = window.scrollY * scrollSpeed;
+    section.style.backgroundPositionY = -`${offset}px`;
+  });
+});
