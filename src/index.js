@@ -23,12 +23,12 @@
 //     });
 //   });
 
-document.addEventListener("scroll", () => {
-  const sections = document.querySelectorAll(".parallax");
+// document.addEventListener("scroll", () => {
+//   const sections = document.querySelectorAll(".parallax");
 
-  sections.forEach((section) => {
-    const scrollSpeed = 0.15;
-    const offset = window.scrollY * scrollSpeed;
-    section.style.backgroundPositionY = -`${offset}px`;
-  });
-});
+//   sections.forEach((section) => {
+//     const scrollSpeed = 0.15;
+//     const offset = window.scrollY * scrollSpeed;
+//     section.style.backgroundPositionY = -`${offset}px`;
+//   });
+// });
