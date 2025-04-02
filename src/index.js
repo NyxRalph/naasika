@@ -8,18 +8,18 @@ window.addEventListener("scroll", function () {
     });
 });
 
-document.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('.parallax');
+// document.addEventListener('scroll', () => {
+//     const sections = document.querySelectorAll('.parallax');
 
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
+//     sections.forEach(section => {
+//       const rect = section.getBoundingClientRect();
+//       const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
 
-      if (isInView) {
-        const scrollSpeed = 0.15;
-        const offset = window.scrollY * scrollSpeed;
-        section.style.backgroundPositionY = -`${offset}px`;
-      }
-    });
-  });
+//       if (isInView) {
+//         const scrollSpeed = 0.15;
+//         const offset = window.scrollY * scrollSpeed;
+//         section.style.backgroundPositionY = -`${offset}px`;
+//       }
+//     });
+//   });
 
